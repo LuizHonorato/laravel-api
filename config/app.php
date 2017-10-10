@@ -180,6 +180,9 @@ return [
         //API Autenticação
         Tymon\JWTAuth\Providers\JWTAuthServiceProvider::class,
 
+        //Cors
+        Barryvdh\Cors\ServiceProvider::class,
+
     ],
 
     /*
